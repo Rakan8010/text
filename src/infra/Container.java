@@ -1,4 +1,6 @@
-package A;
+package infra;
+
+import controller.SystemController;
 
 import java.util.Scanner;
 

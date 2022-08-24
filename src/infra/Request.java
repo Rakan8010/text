@@ -1,9 +1,11 @@
-package A;
+package infra;
+
+import utils.UriParser;
 
 import java.util.Map;
 
-
 public class Request {
+
     private UriParser uriParser;
 
     public Request(String uri){
@@ -11,7 +13,7 @@ public class Request {
     }
 
     public boolean isValidRequest(){
-        return false;
+        return uriParser.isValid();
     }
 
     public String getControllerCode() {
