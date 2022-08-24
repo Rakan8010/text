@@ -1,5 +1,3 @@
-package Main;
-
 import infra.Application;
 
 public class Main {
